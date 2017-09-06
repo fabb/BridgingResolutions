@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F1441071F5FC52000BF2F47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1441061F5FC52000BF2F47 /* AppDelegate.swift */; };
+		1F1441091F5FC52000BF2F47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1441081F5FC52000BF2F47 /* ViewController.swift */; };
+		1F14410C1F5FC52000BF2F47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F14410A1F5FC52000BF2F47 /* Main.storyboard */; };
+		1F14410E1F5FC52000BF2F47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F14410D1F5FC52000BF2F47 /* Assets.xcassets */; };
+		1F1441111F5FC52000BF2F47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F14410F1F5FC52000BF2F47 /* LaunchScreen.storyboard */; };
+		E65584E7226C69139C35CAC4 /* libPods-BridgingResolutions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1774ADE6994E2CC58D0DA9CD /* libPods-BridgingResolutions.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1774ADE6994E2CC58D0DA9CD /* libPods-BridgingResolutions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BridgingResolutions.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1441031F5FC52000BF2F47 /* BridgingResolutions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BridgingResolutions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1441061F5FC52000BF2F47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F1441081F5FC52000BF2F47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F14410B1F5FC52000BF2F47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F14410D1F5FC52000BF2F47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F1441101F5FC52000BF2F47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F1441121F5FC52000BF2F47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F1441181F5FC54600BF2F47 /* BridgingResolutions-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BridgingResolutions-Bridging-Header.h"; sourceTree = "<group>"; };
+		9453F856B28C1BE54A6CC476 /* Pods-BridgingResolutions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BridgingResolutions.release.xcconfig"; path = "Pods/Target Support Files/Pods-BridgingResolutions/Pods-BridgingResolutions.release.xcconfig"; sourceTree = "<group>"; };
+		F9F52F7CA1F33CE3F31B34A2 /* Pods-BridgingResolutions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BridgingResolutions.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BridgingResolutions/Pods-BridgingResolutions.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F1441001F5FC52000BF2F47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E65584E7226C69139C35CAC4 /* libPods-BridgingResolutions.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F1440FA1F5FC52000BF2F47 = {
+			isa = PBXGroup;
+			children = (
+				1F1441051F5FC52000BF2F47 /* BridgingResolutions */,
+				1F1441041F5FC52000BF2F47 /* Products */,
+				817BDA101BBCAF357AB20FFF /* Pods */,
+				43C8F06E79BEDC993E5A33C4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1F1441041F5FC52000BF2F47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F1441031F5FC52000BF2F47 /* BridgingResolutions.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F1441051F5FC52000BF2F47 /* BridgingResolutions */ = {
+			isa = PBXGroup;
+			children = (
+				1F1441061F5FC52000BF2F47 /* AppDelegate.swift */,
+				1F1441081F5FC52000BF2F47 /* ViewController.swift */,
+				1F14410A1F5FC52000BF2F47 /* Main.storyboard */,
+				1F14410D1F5FC52000BF2F47 /* Assets.xcassets */,
+				1F14410F1F5FC52000BF2F47 /* LaunchScreen.storyboard */,
+				1F1441121F5FC52000BF2F47 /* Info.plist */,
+				1F1441181F5FC54600BF2F47 /* BridgingResolutions-Bridging-Header.h */,
+			);
+			path = BridgingResolutions;
+			sourceTree = "<group>";
+		};
+		43C8F06E79BEDC993E5A33C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1774ADE6994E2CC58D0DA9CD /* libPods-BridgingResolutions.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		817BDA101BBCAF357AB20FFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9F52F7CA1F33CE3F31B34A2 /* Pods-BridgingResolutions.debug.xcconfig */,
+				9453F856B28C1BE54A6CC476 /* Pods-BridgingResolutions.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F1441021F5FC52000BF2F47 /* BridgingResolutions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F1441151F5FC52000BF2F47 /* Build configuration list for PBXNativeTarget "BridgingResolutions" */;
+			buildPhases = (
+				23EEB0B5BDB452211F3B705B /* [CP] Check Pods Manifest.lock */,
+				1F1440FF1F5FC52000BF2F47 /* Sources */,
+				1F1441001F5FC52000BF2F47 /* Frameworks */,
+				1F1441011F5FC52000BF2F47 /* Resources */,
+				04AE3E96B570A39839B08FA0 /* [CP] Embed Pods Frameworks */,
+				91C44A989CA946B60F2B38D5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BridgingResolutions;
+			productName = BridgingResolutions;
+			productReference = 1F1441031F5FC52000BF2F47 /* BridgingResolutions.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F1440FB1F5FC52000BF2F47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = my.org;
+				TargetAttributes = {
+					1F1441021F5FC52000BF2F47 = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1F1440FE1F5FC52000BF2F47 /* Build configuration list for PBXProject "BridgingResolutions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F1440FA1F5FC52000BF2F47;
+			productRefGroup = 1F1441041F5FC52000BF2F47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F1441021F5FC52000BF2F47 /* BridgingResolutions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F1441011F5FC52000BF2F47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1441111F5FC52000BF2F47 /* LaunchScreen.storyboard in Resources */,
+				1F14410E1F5FC52000BF2F47 /* Assets.xcassets in Resources */,
+				1F14410C1F5FC52000BF2F47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04AE3E96B570A39839B08FA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BridgingResolutions/Pods-BridgingResolutions-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23EEB0B5BDB452211F3B705B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BridgingResolutions-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91C44A989CA946B60F2B38D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BridgingResolutions/Pods-BridgingResolutions-resources.sh",
+				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BridgingResolutions/Pods-BridgingResolutions-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F1440FF1F5FC52000BF2F47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1441091F5FC52000BF2F47 /* ViewController.swift in Sources */,
+				1F1441071F5FC52000BF2F47 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F14410A1F5FC52000BF2F47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F14410B1F5FC52000BF2F47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F14410F1F5FC52000BF2F47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F1441101F5FC52000BF2F47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F1441131F5FC52000BF2F47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F1441141F5FC52000BF2F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F1441161F5FC52000BF2F47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9F52F7CA1F33CE3F31B34A2 /* Pods-BridgingResolutions.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = BridgingResolutions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = my.org.BridgingResolutions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BridgingResolutions/BridgingResolutions-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1F1441171F5FC52000BF2F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9453F856B28C1BE54A6CC476 /* Pods-BridgingResolutions.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = BridgingResolutions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = my.org.BridgingResolutions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BridgingResolutions/BridgingResolutions-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F1440FE1F5FC52000BF2F47 /* Build configuration list for PBXProject "BridgingResolutions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F1441131F5FC52000BF2F47 /* Debug */,
+				1F1441141F5FC52000BF2F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F1441151F5FC52000BF2F47 /* Build configuration list for PBXNativeTarget "BridgingResolutions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F1441161F5FC52000BF2F47 /* Debug */,
+				1F1441171F5FC52000BF2F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F1440FB1F5FC52000BF2F47 /* Project object */;
+}
